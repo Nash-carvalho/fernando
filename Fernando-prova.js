@@ -23,8 +23,9 @@ console.log(i)
 
 //4 Array
 let frutas = ["banana","maça", "laranja","pera","uva"]
-console.log(frutas[0])
-console.log(frutas[1])
-console.log(frutas[2])
-console.log(frutas[3])
-console.log(frutas[4])
+let contador = 1
+
+for(let i = 0; i < frutas.length; i++) {
+    console.log("Fruta " + contador++ + ": " + frutas[i])
+}
+
